@@ -1,0 +1,127 @@
+/* -- START -- USER PANEL */
+.a24pProPanelContainer {
+	float: left;
+	width: 100%;
+	overflow: auto;
+}
+
+#a24pProPanelTable {
+	float: left;
+	width: 100% !important;
+	margin: 10px 0 0 !important;
+	font-size: 12px;
+	line-height: 1.5;
+	min-width: 700px;
+	border-radius: 5px;
+	overflow-x: scroll;
+}
+#a24pProPanelTable,
+#a24pProPanelTable th {
+	color: black;
+	background-color: white;
+	border: 0;position: relative;
+}
+#a24pProPanelTable tbody tr {
+	opacity: 1;
+	-webkit-transition: all .4s; /* Safari */
+	transition: all .4s;
+}
+#a24pProPanelTable tbody:hover tr {
+	opacity: 0.5;
+}
+#a24pProPanelTable tbody tr:hover {
+	opacity: 1;
+}
+#a24pProPanelTable tr,
+#a24pProPanelTable th,
+#a24pProPanelTable td {
+	text-align: left;
+	padding: 5px 10px;
+	border: 0;
+}
+#a24pProPanelTable th,
+#a24pProPanelTable tr {
+	border-bottom: 1px solid #ededed;
+}
+#a24pProPanelTable tr:last-of-type {
+	border-bottom: 0;
+}
+#a24pProPanelTable tr.a24pProFirst,
+#a24pProPanelTable th.a24pProFirst,
+#a24pProPanelTable td.a24pProFirst {
+	text-align: left;
+}
+#a24pProPanelTable th {
+	line-height: 40px;
+	height: 40px;
+}
+#a24pProPanelTable th.a24pProFirst {
+	border-top-left-radius: 5px;
+	max-width: 250px;
+}
+#a24pProPanelTable td.a24pProFirst {
+	max-width: 250px;
+}
+#a24pProPanelTable td.a24pNoWrap {
+	white-space: nowrap;
+}
+#a24pProPanelTable td.a24pCenter {
+	text-align: center;
+}
+#a24pProPanelTable td.a24pProFirst .a24pProContent {
+	margin-left: 60px;
+}
+#a24pProPanelTable th.a24pProFirst > img,
+#a24pProPanelTable td.a24pProFirst > img {
+	float: left;
+	max-width: 50px;
+}
+#a24pProPanelTable tr.a24pProLast,
+#a24pProPanelTable th.a24pProLast,
+#a24pProPanelTable td.a24pProLast {
+	text-align: right;
+	font-weight: bold;
+}
+#a24pProPanelTable th.a24pProLast {
+	border-top-right-radius: 5px;
+}
+#a24pProPanelTable .a24pProContent > a {
+	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 200px;
+}
+#a24pProPanelTable span.a24pProPanelStatus {
+	background-color: grey;
+	color: white;
+	border-radius: 3px;
+	padding: 1px 4px;
+}
+#a24pProPanelTable span.a24pProPanelStatus.active {
+	background-color: #4DA720;
+	color: white;
+}
+#a24pProPanelTable span.a24pProPanelStatus.pending {
+	background-color: grey;
+	color: white;
+}
+#a24pProPanelTable span.a24pProPanelStatus.expired {
+	background-color: #FF2A13;
+	color: white;
+}
+#a24pProPanelTable .buyButton {
+	background-color: #673ab7;
+	color: #ffd71a;
+	padding: 10px 20px;
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 4px;
+	-webkit-transition: all .7s; /* Safari */
+	transition: all .7s;
+}
+#a24pProPanelTable .buyButton:hover {
+	background-color: #ffd71a;
+	color: #673ab7;
+}
+/* -- END -- USER PANEL */

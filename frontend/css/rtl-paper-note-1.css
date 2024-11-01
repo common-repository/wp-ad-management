@@ -1,0 +1,90 @@
+/* -- START -- Reset */
+#a24p-paper-note-1 h3,
+#a24p-paper-note-1 a,
+#a24p-paper-note-1 img,
+#a24p-paper-note-1 span,
+#a24p-paper-note-1 p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	text-decoration: none;
+	line-height: 1.25;
+}
+/* -- END -- Reset */
+
+
+/* -- START -- TEMPLATE */
+#a24p-paper-note-1 .a24pProItemInner.a24pNote {
+	position: relative;
+	height: 140px;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	background: #e53935;
+	overflow: hidden;
+}
+
+#a24p-paper-note-1 .a24pProItemInner.a24pNote:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-width: 0 0 16px 16px;
+	border-style: solid;
+	border-color: #fff #c62828 #c62828 #fff;
+	background: #c62828;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+	/* Firefox 3.0 damage limitation */
+	display: block; width: 0;
+}
+
+#a24p-paper-note-1 .a24pProItemInner.a24pNote.a24pRounded {
+	-moz-border-radius: 0 5px 5px 5px;
+	border-radius: 0 5px 5px 5px;
+}
+
+#a24p-paper-note-1 .a24pProItemInner.a24pNote.a24pRounded:before {
+	border-width: 15px;
+	border-color: #fff transparent transparent #fff;
+	-moz-border-radius: 0 0 5px 0;
+	border-radius: 0 0 5px 0;
+}
+
+#a24p-paper-note-1 .a24pProItemInner .a24pProItemInner__copy {
+	float: right;
+	height: 140px;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#a24p-paper-note-1 .a24pProItemInner__copyInner {
+
+}
+
+#a24p-paper-note-1 .a24pProItemInner__copy .a24pProItemInner__title {
+	font-size: 20px;
+	margin: 15px 15px 0;
+	color: #5d0a0a;
+}
+
+#a24p-paper-note-1 .a24pProItemInner__copy .a24pProItemInner__desc {
+	margin: 0 15px 10px;
+	font-size: 14px;
+	color: #ffcdd2;
+}
+
+#a24p-paper-note-1 .a24pProItemInner__copy .a24pProItemInner__url {
+	margin: 0 15px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #ffcdd2;
+}
+/* -- END -- TEMPLATE */
